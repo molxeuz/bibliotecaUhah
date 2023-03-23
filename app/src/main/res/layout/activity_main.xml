@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="230dp">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bordes_redondeados"
+            android:backgroundTint="#C1C1C1"
+            android:src="@drawable/ic_baseline_accessible_forward_24"></ImageButton>
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:text="UHAH LIBRARY"
+            android:textSize="40dp"
+            android:textColor="#FF4EA0E1"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="-235dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="0dp"
+            android:text="EMAIL ADDRESS"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+        
+        <EditText
+            android:id="@+id/etemail_admin"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:textAlignment="center"
+            android:hint="ENTER YOUR ANSWER"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="-190dp"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="0dp"
+            android:text="PASSWORD"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etpassword_admin"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:textAlignment="center"
+            android:hint="ENTER YOUR ANSWER"
+            android:inputType="numberPassword"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="-190dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="FORGOT PASSWORD?"
+        android:textSize="15dp"
+        android:backgroundTint="#8C8C8C">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="-55dp"
+        android:text="LOGIN"
+        android:textSize="15dp"
+        android:backgroundTint="#4EA0E1">
+
+    </Button>
+
+
+</LinearLayout>

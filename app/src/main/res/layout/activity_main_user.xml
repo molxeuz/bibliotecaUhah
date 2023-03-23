@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_user"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="130dp"
+        android:background="#B0CFFC">
+
+        <Button
+            android:id="@+id/btngo_back"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:text="GO BACK"
+            android:textSize="15dp"
+            android:backgroundTint="#4EA0E1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnlog_out"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="-370dp"
+            android:layout_marginTop="20dp"
+            android:text="Log out"
+            android:textSize="15dp"
+            android:backgroundTint="#4EA0E1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnuser_list"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="TABLE"
+            android:textSize="15dp"
+            android:backgroundTint="#4EA0E1">
+
+        </Button>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="-230dp"
+            android:layout_marginTop="75dp"
+            android:text="Welcome to "
+            android:textColor="@color/black"
+            android:textSize="27dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="75dp"
+            android:text="REGISTER USER"
+            android:textColor="@color/black"
+            android:textSize="27dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="0dp"
+            android:text="USER ID"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etidentification_user"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:textAlignment="center"
+            android:hint="ENTER YOUR ANSWER"
+            android:inputType="number"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="-190dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="0dp"
+            android:text="FULL NAME"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etname_user"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:textAlignment="center"
+            android:hint="ENTER YOUR ANSWER"
+            android:inputType="textPersonName"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="-190dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="0dp"
+            android:text="PASSWORD"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etpassword_user"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:textAlignment="center"
+            android:hint="ENTER YOUR ANSWER"
+            android:inputType="textPassword"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="-190dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="STATUS"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-220dp"
+            android:layout_marginTop="50dp"
+            android:text="INACTIVE"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <Switch
+            android:id="@+id/swstatus_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp">
+        </Switch>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="ACTIVE"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnsearch_user"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="10dp"
+        android:text="SEARCH"
+        android:textSize="15dp"
+        android:backgroundTint="#4EA0E1">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btndelete_user"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="0dp"
+        android:text="DELETE"
+        android:textSize="15dp"
+        android:backgroundTint="#4EA0E1">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnsave_user"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-90dp"
+        android:text="SAVE"
+        android:textSize="15dp"
+        android:backgroundTint="#4EA0E1">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnedit_user"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="0dp"
+        android:text="EDIT"
+        android:textSize="15dp"
+        android:backgroundTint="#4EA0E1">
+
+    </Button>
+
+</LinearLayout>

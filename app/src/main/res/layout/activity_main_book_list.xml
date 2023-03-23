@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_book_list"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="130dp"
+        android:background="#B0CFFC">
+
+        <Button
+            android:id="@+id/btngo_back"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:text="GO BACK"
+            android:textSize="15dp"
+            android:backgroundTint="#4EA0E1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnlog_out"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="-370dp"
+            android:layout_marginTop="20dp"
+            android:text="Log out"
+            android:textSize="15dp"
+            android:backgroundTint="#4EA0E1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnregister_book"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="BOOK"
+            android:textSize="15dp"
+            android:backgroundTint="#4EA0E1">
+
+        </Button>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-190dp"
+            android:layout_marginTop="75dp"
+            android:text="Welcome to "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="27dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="75dp"
+            android:text="BOOK LIST"
+            android:textColor="@color/black"
+            android:textSize="27dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="530dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8">
+
+        <ListView
+            android:id="@+id/lvBooks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

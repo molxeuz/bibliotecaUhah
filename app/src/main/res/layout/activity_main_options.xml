@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_options"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="80dp"
+        android:background="#B0CFFC">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="15dp"
+            android:text="About us"
+            android:textSize="15dp"
+            android:backgroundTint="#4EA0E1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnlog_out"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="-290dp"
+            android:layout_marginTop="15dp"
+            android:text="Log out"
+            android:textSize="15dp"
+            android:backgroundTint="#4EA0E1">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:text="REGISTER USER "
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnregister_user"
+            android:layout_width="210dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-190dp"
+            android:layout_marginTop="60dp"
+            android:text="GO TO USER"
+            android:textSize="15dp"
+            android:backgroundTint="#8C8C8C">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnuser_list"
+            android:layout_width="210dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-210dp"
+            android:layout_marginTop="120dp"
+            android:text="GO TO TABLE"
+            android:textSize="15dp"
+            android:backgroundTint="#8C8C8C">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:text="REGISTER BOOK "
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnregister_book"
+            android:layout_width="210dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-190dp"
+            android:layout_marginTop="60dp"
+            android:text="GO TO BOOK"
+            android:textSize="15dp"
+            android:backgroundTint="#8C8C8C">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnbook_list"
+            android:layout_width="210dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-210dp"
+            android:layout_marginTop="120dp"
+            android:text="GO TO TABLE"
+            android:textSize="15dp"
+            android:backgroundTint="#8C8C8C">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#E8E8E8">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:text="REGISTER RENT"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnregister_rent"
+            android:layout_width="210dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-190dp"
+            android:layout_marginTop="60dp"
+            android:text="GO TO RENT"
+            android:textSize="15dp"
+            android:backgroundTint="#8C8C8C">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnrent_list"
+            android:layout_width="210dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="-210dp"
+            android:layout_marginTop="120dp"
+            android:text="GO TO TABLE"
+            android:textSize="15dp"
+            android:backgroundTint="#8C8C8C">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
